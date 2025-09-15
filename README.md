@@ -1,32 +1,21 @@
-# 100 review of concepts
+# 100 review of functions
 
 ## Objectives
 * to review and remember
-  1. proper indenting for identifying blocks of code in Python
-  2. review basic input and output using print() and input() commands
-  3. review proper naming conventions for working with variables
-  4. syntax and structure for decision making using if, if..elif or if..else statements
-  5. iteration using for and while loops
-  6. review of try...except structures
+  1. naming of functions
+  2. use of (input) parameters
+  3. use of return values
 
 ## Assignment
-
 ### Assignment 1
-#### Calculation of Simple Interest
-The simple interest formula is I = P*r*t where I = the amount of interest, P is the principal or the amount invested, r is the interest rate per year (converted to a decimal) and t is the length of time in years.
-Write a program that calculates the amount of simple interest for an investment.
+#### Random Recipe
+Create a function that chooses a random ingredient from a list and returns a string that contains ingredient along with a random value
+
+Your program should call the function several times and display the result.
 
 Criteria:
-Your program should ask the user for 
-* an initial investment
-* the annual interest rate as a percentage
-* the length of time.
-  * the user should have the option of entering in the length of time in years, months or days
-* The program will calculate the amount of interest earned and display it.
-* Appropriate formatting of the output is a requirement for this assignment
-* your program should make use of appropriate variable names
-* you will need to make use of conditional (if) statements to determine how the time is being calculated
-* your program should prevent invalid input (alphanumeric characters that cannot be interpreted as numbers)
+* use a loop to repeat a block of commands 5 times
+* each block should retrieve one value from the function and display it on a line
 
 
 ### Assignment 2

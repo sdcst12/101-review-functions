@@ -1,15 +1,22 @@
-"""
-### Assignment 1
-#### Calculation of Simple Interest
-The simple interest formula is I = P*r*t where I = the amount of interest, P is the principal or the amount invested, r is the interest rate per year (converted to a decimal) and t is the length of time in years.
-Write a program that calculates the amount of simple interest for an investment.
+"""#### Random Recipe
+Create a function that chooses a random ingredient from a list and returns a string that contains ingredient along with a random value
+
+Your program should call the function several times and display the result.
 
 Criteria:
-Your program should ask the user for 
-* an initial investment
-* the annual interest rate as a percentage
-* the length of time.
-  * the user should have the option of entering in the length of time in years, months or days
-* The program will calculate the amount of interest earned and display it.
-* Appropriate formatting of the output is a requirement for this assignment
+* use a loop to repeat a block of commands 5 times
+* each block should retrieve one value from the function and display it on a line
+
+Sample Output:
+Your recipe:
+134 cup of sugar
+88 cup of milk
+91 cup of chicken
+145 cup of butter
+15 cup of salt
 """
+
+def randomIngredient():
+    pass  # Replace this line with your code
+
+# your code
