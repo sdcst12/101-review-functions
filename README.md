@@ -28,6 +28,8 @@ line4: global y
 ```
 This tells the function to make use of the global value of y, and change the value of y in the global scope if it is changed in the function. However, it is much better practice to instead send the value of y as an input parameter if you need to use it within the function.
 
+A function is intended to return a specific value.
+
 ## Assignment
 ### Assignment 1
 #### Random Recipe
